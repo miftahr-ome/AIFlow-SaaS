@@ -1,0 +1,679 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:title" content="AIFlow SaaS">
+<meta property="og:description" content="AI powered analytics platform">
+<meta property="og:image" content="assets/preview.jpg">
+
+<title>Contact - AIFlow</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" href="assets/favicon.png">
+<iframe
+src="https://maps.google.com/maps?q=New%20York&t=&z=13&ie=UTF8&iwloc=&output=embed">
+</iframe>
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+<style>
+
+.contact-info-card{
+background:var(--white);
+padding:30px;
+border-radius:20px;
+box-shadow:var(--shadow);
+margin-bottom:20px;
+}
+
+.contact-icon{
+width:60px;
+height:60px;
+border-radius:15px;
+background:var(--gradient);
+display:flex;
+align-items:center;
+justify-content:center;
+color:#fff;
+font-size:1.4rem;
+margin-bottom:15px;
+}
+
+.map-box{
+height:400px;
+border-radius:20px;
+overflow:hidden;
+box-shadow:var(--shadow);
+}
+
+.social-links{
+display:flex;
+gap:15px;
+margin-top:20px;
+}
+
+.social-links a{
+width:45px;
+height:45px;
+border-radius:50%;
+background:var(--primary);
+color:#fff;
+display:flex;
+align-items:center;
+justify-content:center;
+}
+
+.error{
+color:red;
+font-size:.85rem;
+margin-top:5px;
+}
+
+.success-message{
+display:none;
+background:#dcfce7;
+padding:15px;
+border-radius:10px;
+margin-top:20px;
+color:#166534;
+}
+
+</style>
+
+</head>
+
+<body>
+
+
+
+<header>
+
+<div class="container">
+
+<nav>
+
+<a href="index.html" class="logo">
+AIFlow
+</a>
+
+<ul class="nav-links">
+
+<li><a href="index.html">Home</a></li>
+<li><a href="features.html">Features</a></li>
+<li><a href="pricing.html">Pricing</a></li>
+<li><a href="dashboard.html">Dashboard</a></li>
+<li><a href="contact.html">Contact</a></li>
+
+</ul>
+
+<div style="display:flex;gap:20px;align-items:center;">
+
+<button class="theme-btn">
+<i class="fas fa-moon"></i>
+</button>
+
+<div class="menu-btn">
+<i class="fas fa-bars"></i>
+</div>
+
+</div>
+
+</nav>
+
+</div>
+
+</header>
+
+
+
+<section class="hero">
+
+<div class="container">
+
+<div class="hero-content">
+
+<div class="hero-text">
+
+<h1>
+
+Let's
+<span>Talk</span>
+
+</h1>
+
+<p>
+
+Need help, have questions, or want
+a custom solution? Contact our team.
+
+</p>
+
+<a href="#contactForm"
+class="btn btn-primary">
+
+Send Message
+
+</a>
+
+</div>
+
+<div class="hero-card">
+
+<h2>
+Support Hours
+</h2>
+
+<br>
+
+<div class="analytics-box">
+
+<div class="analytics-item">
+<h3>24/7</h3>
+<p>Support</p>
+</div>
+
+<div class="analytics-item">
+<h3>5 min</h3>
+<p>Response</p>
+</div>
+
+<div class="analytics-item">
+<h3>99%</h3>
+<p>Satisfaction</p>
+</div>
+
+<div class="analytics-item">
+<h3>Global</h3>
+<p>Coverage</p>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<section id="contactForm">
+
+<div class="container">
+
+<div class="section-title">
+
+<h2>
+Get In Touch
+</h2>
+
+<p>
+We'd love to hear from you.
+</p>
+
+</div>
+
+<div class="contact-grid">
+
+
+
+<div>
+
+<div class="contact-info-card">
+
+<div class="contact-icon">
+<i class="fas fa-location-dot"></i>
+</div>
+
+<h3>Office</h3>
+
+<p>
+350 Fifth Avenue,
+New York, NY
+</p>
+
+</div>
+
+<div class="contact-info-card">
+
+<div class="contact-icon">
+<i class="fas fa-envelope"></i>
+</div>
+
+<h3>Email</h3>
+
+<p>
+hello@aiflow.com
+</p>
+
+</div>
+
+<div class="contact-info-card">
+
+<div class="contact-icon">
+<i class="fas fa-phone"></i>
+</div>
+
+<h3>Phone</h3>
+
+<p>
++1 234 567 890
+</p>
+
+</div>
+
+<div class="social-links">
+
+<a href="#">
+<i class="fab fa-facebook-f"></i>
+</a>
+
+<a href="#">
+<i class="fab fa-linkedin-in"></i>
+</a>
+
+<a href="#">
+<i class="fab fa-twitter"></i>
+</a>
+
+<a href="#">
+<i class="fab fa-github"></i>
+</a>
+
+</div>
+
+</div>
+
+
+
+<div>
+
+<form class="contact-form" id="form">
+
+<div class="input-group">
+
+<input
+type="text"
+id="name"
+placeholder="Your Name">
+
+<div class="error" id="nameError"></div>
+
+</div>
+
+<div class="input-group">
+
+<input
+type="email"
+id="email"
+placeholder="Your Email">
+
+<div class="error" id="emailError"></div>
+
+</div>
+
+<div class="input-group">
+
+<input
+type="text"
+id="subject"
+placeholder="Subject">
+
+</div>
+
+<div class="input-group">
+
+<textarea
+id="message"
+placeholder="Message"></textarea>
+
+<div class="error" id="messageError"></div>
+
+</div>
+
+<button
+type="submit"
+class="btn btn-primary">
+
+Send Message
+
+</button>
+
+<div
+class="success-message"
+id="success">
+
+Message Sent Successfully!
+
+</div>
+
+</form>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<section>
+
+<div class="container">
+
+<div class="section-title">
+
+<h2>
+Find Us
+</h2>
+
+</div>
+
+<div class="map-box">
+
+<iframe
+width="100%"
+height="100%"
+frameborder="0"
+style="border:0"
+src="https://maps.google.com/maps?q=New%20York&t=&z=13&ie=UTF8&iwloc=&output=embed"
+allowfullscreen>
+</iframe>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<section>
+
+<div class="container">
+
+<div class="section-title">
+
+<h2>
+Frequently Asked Questions
+</h2>
+
+</div>
+
+<div class="faq">
+
+<div class="faq-item">
+
+<div class="faq-question">
+How quickly do you respond?
+</div>
+
+<div class="faq-answer">
+Usually within a few minutes.
+</div>
+
+</div>
+
+<div class="faq-item">
+
+<div class="faq-question">
+Do you offer enterprise support?
+</div>
+
+<div class="faq-answer">
+Yes, enterprise plans include dedicated support.
+</div>
+
+</div>
+
+<div class="faq-item">
+
+<div class="faq-question">
+Can I request a demo?
+</div>
+
+<div class="faq-answer">
+Absolutely. Contact us anytime.
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<section class="newsletter">
+
+<div class="container">
+
+<h2>
+Stay Updated
+</h2>
+
+<p>
+Receive product updates and news.
+</p>
+
+<br>
+
+<form>
+
+<input
+type="email"
+placeholder="Enter Email">
+
+<button
+class="btn btn-primary">
+
+Subscribe
+
+</button>
+
+</form>
+
+</div>
+
+</section>
+
+
+
+<footer>
+
+<div class="container">
+
+<div class="footer-grid">
+
+<div class="footer-col">
+
+<h3>AIFlow</h3>
+
+<p>
+AI Powered SaaS Platform.
+</p>
+
+</div>
+
+<div class="footer-col">
+
+<h3>Company</h3>
+
+<ul>
+
+<li>About</li>
+<li>Careers</li>
+<li>Blog</li>
+
+</ul>
+
+</div>
+
+<div class="footer-col">
+
+<h3>Resources</h3>
+
+<ul>
+
+<li>API</li>
+<li>Docs</li>
+<li>Support</li>
+
+</ul>
+
+</div>
+
+<div class="footer-col">
+
+<h3>Contact</h3>
+
+<ul>
+
+<li>hello@aiflow.com</li>
+<li>+1 234 567 890</li>
+
+</ul>
+
+</div>
+
+</div>
+
+<div class="copyright">
+
+© 2026 AIFlow. All Rights Reserved.
+
+</div>
+
+</div>
+
+</footer>
+
+<script>
+
+
+
+const menuBtn =
+document.querySelector('.menu-btn');
+
+const navLinks =
+document.querySelector('.nav-links');
+
+menuBtn.addEventListener('click',()=>{
+
+navLinks.classList.toggle('active');
+
+});
+
+
+
+const themeBtn =
+document.querySelector('.theme-btn');
+
+themeBtn.addEventListener('click',()=>{
+
+document.body.classList.toggle('dark');
+
+});
+
+
+
+document
+.querySelectorAll('.faq-item')
+.forEach(item=>{
+
+item.addEventListener('click',()=>{
+
+item.classList.toggle('active');
+
+});
+
+});
+
+
+
+const form =
+document.getElementById('form');
+
+form.addEventListener('submit',(e)=>{
+
+e.preventDefault();
+
+let valid=true;
+
+const name =
+document.getElementById('name');
+
+const email =
+document.getElementById('email');
+
+const message =
+document.getElementById('message');
+
+document.getElementById('nameError').innerText='';
+document.getElementById('emailError').innerText='';
+document.getElementById('messageError').innerText='';
+
+if(name.value.trim()===''){
+
+document.getElementById('nameError')
+.innerText='Name required';
+
+valid=false;
+
+}
+
+if(!email.value.includes('@')){
+
+document.getElementById('emailError')
+.innerText='Valid email required';
+
+valid=false;
+
+}
+
+if(message.value.trim().length<10){
+
+document.getElementById('messageError')
+.innerText='Minimum 10 characters';
+
+valid=false;
+
+}
+
+if(valid){
+
+document.getElementById('success')
+.style.display='block';
+
+form.reset();
+
+setTimeout(()=>{
+
+document.getElementById('success')
+.style.display='none';
+
+},3000);
+
+}
+
+});
+
+</script>
+
+</body>
+</html>
